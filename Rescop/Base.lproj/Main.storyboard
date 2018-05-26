@@ -63,7 +63,7 @@
             </objects>
             <point key="canvasLocation" x="-1015.2" y="888.30584707646187"/>
         </scene>
-        <!--Neg Match View Controller-->
+        <!--Negative-->
         <scene sceneID="djV-iT-TeB">
             <objects>
                 <viewController id="KgS-Ds-Tiu" customClass="NegMatchViewController" customModule="Rescop" customModuleProvider="target" sceneMemberID="viewController">
@@ -84,7 +84,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="keq-86-U3h"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="Minus" id="Qt1-C2-4ap"/>
+                    <tabBarItem key="tabBarItem" title="Negative" selectedImage="Minus" id="Qt1-C2-4ap"/>
                     <connections>
                         <outlet property="tableView" destination="dkC-Xo-4xI" id="5Vt-MO-rgt"/>
                     </connections>
