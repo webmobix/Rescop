@@ -14,6 +14,16 @@
 		301A57AC20B93BCA00A87DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301A57AA20B93BCA00A87DF9 /* LaunchScreen.storyboard */; };
 		301A57B720B93BCA00A87DF9 /* RescopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57B620B93BCA00A87DF9 /* RescopTests.swift */; };
 		301A57C220B93BCA00A87DF9 /* RescopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57C120B93BCA00A87DF9 /* RescopUITests.swift */; };
+		301A57D120B93BF000A87DF9 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301A57D020B93BEF00A87DF9 /* CoreML.framework */; };
+		301A57D520B9404500A87DF9 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301A57D420B9404500A87DF9 /* Vision.framework */; };
+		301A57DA20B9412F00A87DF9 /* Rescop_986748137.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 301A57D920B9412F00A87DF9 /* Rescop_986748137.mlmodel */; };
+		301A57DC20B94A1000A87DF9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57DB20B94A1000A87DF9 /* StartViewController.swift */; };
+		301A57DE20B9552000A87DF9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57DD20B9552000A87DF9 /* MapViewController.swift */; };
+		301A57E020B9557900A87DF9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57DF20B9557900A87DF9 /* ListViewController.swift */; };
+		301A57E220B9599E00A87DF9 /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57E120B9599E00A87DF9 /* Datastore.swift */; };
+		301A57E420B9657200A87DF9 /* PosMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57E320B9657200A87DF9 /* PosMatchViewController.swift */; };
+		301A57E620B96BEA00A87DF9 /* NegMatchViewConttroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57E520B96BEA00A87DF9 /* NegMatchViewConttroller.swift */; };
+		301A57E820B96DE500A87DF9 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301A57E720B96DE500A87DF9 /* ImageViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,17 @@
 		301A57BD20B93BCA00A87DF9 /* RescopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RescopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		301A57C120B93BCA00A87DF9 /* RescopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescopUITests.swift; sourceTree = "<group>"; };
 		301A57C320B93BCA00A87DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301A57D020B93BEF00A87DF9 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		301A57D220B93E1F00A87DF9 /* Lumina.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lumina.framework; path = Carthage/Build/iOS/Lumina.framework; sourceTree = "<group>"; };
+		301A57D420B9404500A87DF9 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		301A57D920B9412F00A87DF9 /* Rescop_986748137.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Rescop_986748137.mlmodel; sourceTree = "<group>"; };
+		301A57DB20B94A1000A87DF9 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		301A57DD20B9552000A87DF9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		301A57DF20B9557900A87DF9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		301A57E120B9599E00A87DF9 /* Datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
+		301A57E320B9657200A87DF9 /* PosMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosMatchViewController.swift; sourceTree = "<group>"; };
+		301A57E520B96BEA00A87DF9 /* NegMatchViewConttroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegMatchViewConttroller.swift; sourceTree = "<group>"; };
+		301A57E720B96DE500A87DF9 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301A57D520B9404500A87DF9 /* Vision.framework in Frameworks */,
+				301A57D120B93BF000A87DF9 /* CoreML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,7 @@
 				301A57B520B93BCA00A87DF9 /* RescopTests */,
 				301A57C020B93BCA00A87DF9 /* RescopUITests */,
 				301A579F20B93BC900A87DF9 /* Products */,
+				301A57CF20B93BEF00A87DF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +121,20 @@
 		301A57A020B93BC900A87DF9 /* Rescop */ = {
 			isa = PBXGroup;
 			children = (
+				301A57D820B9412100A87DF9 /* Resources */,
 				301A57A120B93BC900A87DF9 /* AppDelegate.swift */,
 				301A57A320B93BC900A87DF9 /* ViewController.swift */,
 				301A57A520B93BC900A87DF9 /* Main.storyboard */,
 				301A57A820B93BCA00A87DF9 /* Assets.xcassets */,
 				301A57AA20B93BCA00A87DF9 /* LaunchScreen.storyboard */,
 				301A57AD20B93BCA00A87DF9 /* Info.plist */,
+				301A57DB20B94A1000A87DF9 /* StartViewController.swift */,
+				301A57DD20B9552000A87DF9 /* MapViewController.swift */,
+				301A57DF20B9557900A87DF9 /* ListViewController.swift */,
+				301A57E120B9599E00A87DF9 /* Datastore.swift */,
+				301A57E320B9657200A87DF9 /* PosMatchViewController.swift */,
+				301A57E520B96BEA00A87DF9 /* NegMatchViewConttroller.swift */,
+				301A57E720B96DE500A87DF9 /* ImageViewCell.swift */,
 			);
 			path = Rescop;
 			sourceTree = "<group>";
@@ -123,6 +155,24 @@
 				301A57C320B93BCA00A87DF9 /* Info.plist */,
 			);
 			path = RescopUITests;
+			sourceTree = "<group>";
+		};
+		301A57CF20B93BEF00A87DF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301A57D420B9404500A87DF9 /* Vision.framework */,
+				301A57D220B93E1F00A87DF9 /* Lumina.framework */,
+				301A57D020B93BEF00A87DF9 /* CoreML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301A57D820B9412100A87DF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				301A57D920B9412F00A87DF9 /* Rescop_986748137.mlmodel */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301A57DC20B94A1000A87DF9 /* StartViewController.swift in Sources */,
+				301A57DE20B9552000A87DF9 /* MapViewController.swift in Sources */,
+				301A57DA20B9412F00A87DF9 /* Rescop_986748137.mlmodel in Sources */,
 				301A57A420B93BC900A87DF9 /* ViewController.swift in Sources */,
+				301A57E220B9599E00A87DF9 /* Datastore.swift in Sources */,
+				301A57E420B9657200A87DF9 /* PosMatchViewController.swift in Sources */,
+				301A57E620B96BEA00A87DF9 /* NegMatchViewConttroller.swift in Sources */,
 				301A57A220B93BC900A87DF9 /* AppDelegate.swift in Sources */,
+				301A57E820B96DE500A87DF9 /* ImageViewCell.swift in Sources */,
+				301A57E020B9557900A87DF9 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +490,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU588Y3T77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Rescop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +512,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU588Y3T77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Rescop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
